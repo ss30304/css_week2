@@ -1,0 +1,588 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    vertical-align: bottom;
+    display: block;
+}
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.nav {
+    background: #000;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    color: #D1D1D1;
+    font-family: Bruno Ace SC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.nav ul li {
+    margin-right: 61px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.nav ul li:last-child {
+    text-align: right;
+    margin-right: 0;
+}
+
+.persernalAd {
+    display: flex;
+    background: #000;
+    justify-content: space-between;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.persernalAd img {
+    width: 636px;
+}
+
+.slogan {
+    width: 636px;
+    margin-top: 160px;
+}
+
+.slogan p {
+    color: #FFF;
+    font-family: Bruno Ace SC;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 96px */
+}
+
+.slogan h1 {
+    color: #00FFA3;
+    text-align: right;
+    font-family: Bruno Ace SC;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 192px */
+}
+
+.link {
+    display: flex;
+}
+
+.leftSide {
+    width: 451px;
+}
+
+.link a {
+    text-decoration: none;
+    display: flex;
+    border-radius: 32px;
+    background: #FFF;
+    width: 185px;
+    height: 48px;
+    padding: 12px 24px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+
+.link a p {
+    color: #000;
+    font-family: Bruno Ace SC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.link a img {
+    width: 24px;
+    height: 24px;
+}
+
+.introduction {
+    background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.intro {
+    width: 526px;
+    margin-right: 24px;
+}
+
+.intro h2 {
+    color: #FFF;
+    font-family: Bruno Ace SC;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 36px;
+    /* 96px */
+}
+
+.intro p {
+    color: #FFF;
+    font-family: Bruno Ace SC;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 32px;
+    /* 36px */
+}
+
+.introBottom {
+    width: 128px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.introBottom img {
+    width: 33.33%;
+    height: 98px;
+}
+
+.photo2 {
+    width: 746px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutMe {
+    display: flex;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.list {
+    margin-right: 134px;
+}
+
+.list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 636px;
+    margin-top: 46px;
+    margin-bottom: 54px;
+}
+
+.list ul li {
+    box-sizing: border-box;
+    padding: 16px;
+    width: 306px;
+    height: 148px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    margin-right: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list ul li:nth-child(2) {
+    margin-right: 0;
+}
+
+.list ul li:nth-child(4) {
+    margin-right: 0;
+}
+
+.list ul li p {
+    color: #15161D;
+    font-family: Bruno Ace SC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.title {
+    color: #15161D;
+    font-family: Bruno Ace SC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+}
+
+.number {
+    color: #15161D;
+    font-family: Bruno Ace SC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+}
+
+.record {
+    width: 526px;
+}
+
+.record h2 {
+    color: #000;
+    font-family: Bruno Ace SC;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 36px;
+    /* 96px */
+}
+
+.record p {
+    color: #15161D;
+    font-family: Bruno Ace SC;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 36px */
+}
+
+.contact {
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    display: flex;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.contactMe {
+    display: flex;
+    width: 657px;
+    margin-right: 113px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactMe p {
+    color: #FFF;
+    font-family: Bruno Ace SC;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 96px */
+}
+
+.contactMe img {
+    width: 100px;
+    height: 100px;
+}
+
+.socialMedia {
+    width: 526px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialMedia a {
+    width: 162px;
+    height: 162px;
+}
+
+.socialMedia a:hover {
+    border-radius: 40px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.90), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.socialMedia a:nth-child(2):hover {
+    border-radius: 40px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+.socialMedia a:nth-child(3):hover {
+    border-radius: 40px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+.socialMedia img {
+    width: 100%;
+    height: 100%;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.projectTop {
+    display: flex;
+}
+
+.projectTop .leftSide {
+    width: 550px;
+}
+
+.projectTop h2 {
+    width: 746;
+    color: #000;
+    font-family: Bruno Ace SC;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 96px */
+}
+
+.projectPhoto {
+    display: flex;
+}
+
+.projectPhoto img {
+    width: 416px;
+    height: 530px;
+    margin-right: 24px;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightTop {
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.rightTop img {
+    width: 196px;
+    height: 196px;
+    margin-right: 24px;
+}
+
+.projectIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projectIntro p {
+    color: #15161D;
+    font-family: Bruno Ace SC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.projectIntro a {
+    width: 185px;
+    height: 48px;
+    border-radius: 32px;
+    background: #000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectIntro a p {
+    color: #FFF;
+    font-family: Bruno Ace SC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 109px;
+    /* 24px */
+}
+
+.projectIntro a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 0;
+}
+
+.rightBottom {
+    display: flex;
+    width: 856px;
+}
+
+.rightBottom img:nth-child(1) {
+    width: 306px;
+    height: 306px;
+}
+
+.rightBottom img:last-child {
+    width: 526px;
+    height: 306px;
+}
+
+.footer {
+    background: #000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #FFF;
+    text-align: center;
+    font-family: Bruno Ace SC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
