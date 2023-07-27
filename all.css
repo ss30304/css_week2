@@ -141,12 +141,12 @@ img {
 }
 
 .container {
-    width: 1296px;
-    margin: 0 auto;
+    background: #000;
 }
 
 .nav {
-    background: #000;
+    width: 1296px;
+    margin: 0 auto;
 }
 
 .nav ul {
@@ -172,12 +172,17 @@ img {
     margin-right: 0;
 }
 
-.persernalAd {
-    display: flex;
+.container2 {
     background: #000;
+}
+
+.persernalAd {
+    width: 1296px;
+    display: flex;
     justify-content: space-between;
     padding-top: 72px;
     padding-bottom: 72px;
+    margin: 0 auto;
 }
 
 .persernalAd img {
@@ -247,10 +252,15 @@ img {
     height: 24px;
 }
 
-.introduction {
+.container3 {
     background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.introduction {
+    width: 1296px;
+    margin: 0 auto;
     display: flex;
     padding-top: 160px;
     padding-bottom: 160px;
@@ -301,6 +311,8 @@ img {
 }
 
 .aboutMe {
+    width: 1296px;
+    margin: 0 auto;
     display: flex;
     padding-top: 160px;
     padding-bottom: 160px;
@@ -396,8 +408,13 @@ img {
     /* 36px */
 }
 
-.contact {
+.container5 {
     background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+.contact {
+    width: 1296px;
+    margin: 0 auto;
     display: flex;
     padding-top: 96px;
     padding-bottom: 96px;
@@ -462,6 +479,8 @@ img {
 }
 
 .project {
+    width: 1296px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     padding-top: 160px;
